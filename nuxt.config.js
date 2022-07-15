@@ -1,3 +1,5 @@
+import axios from "axios";
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -33,6 +35,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    // https://go.nuxtjs.dev/bootstrap
+    '@nuxtjs/axios',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
